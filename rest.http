@@ -1,0 +1,23 @@
+
+
+POST http://localhost:3000/api/users/secret HTTP/1.1
+Content-Type: application/json
+  Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTgxNzliMmMxNTk0MGViODA5NGM4NCIsImVtYWlsIjoiY2hlbmJhcnVjaGNoZW5AZ21zaWwuY29tIiwiaWF0IjoxNjIwNjUwNDkxLCJleHAiOjE2MjA2NTQwOTF9.v0FsqxpSDVZpFcDwBk3zkqIsfBvn9KyLMuDeMIJ24VA
+
+
+
+{
+    
+    "email":"chenbaruchchen@gmsil.com",
+    "password":"password"
+    
+}
+
+
+
+
+
+# {
+#   "massege": "auth gooddddd",
+#   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOTgxNzliMmMxNTk0MGViODA5NGM4NCIsImVtYWlsIjoiY2hlbmJhcnVjaGNoZW5AZ21zaWwuY29tIiwiaWF0IjoxNjIwNjQ5NzAwLCJleHAiOjE2MjA2NTMzMDB9.p9kf0pTgN7IF6x-HoCHZO-tGsMpJyHfZoHVzkiYadks"
+# }
