@@ -1,18 +1,23 @@
 const express = require('express')
 const app = express()
+console.log("pas1s")
+
  const mongoose = require("mongoose");
 const usersRoutes=require("./api/routes/users")
 const secretRoutes=require("./api/routes/secret")
 
 require("dotenv").config()
-
-
+// (async () => {
+//      await mongoose.connect(process.env.db,{useNewUrlParser: true, useUnifiedTopology: true})
+//      ;
+// })();
 mongoose.connect(process.env.db,{useNewUrlParser: true, useUnifiedTopology: true})
-
+    
 
 mongoose.connection.on("connected",()=>{
     console.log("mongoose connect")
 })
+console.log("pass")
 
 var bodyParser = require('body-parser'); 
 app.use(bodyParser.urlencoded({
